@@ -1,0 +1,12 @@
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\bin\Debug\Chess Project v3.08.exe.config
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\bin\Debug\Chess Project v3.08.exe
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\bin\Debug\Chess Project v3.08.pdb
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\bin\Debug\Chess Project v3.08.xml
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\obj\Debug\Chess Project v3.08.vbproj.AssemblyReference.cache
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\obj\Debug\Chess_Project_v3._08.Form1.resources
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\obj\Debug\Chess_Project_v3._08.Resources.resources
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\obj\Debug\Chess Project v3.08.vbproj.GenerateResource.cache
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\obj\Debug\Chess Project v3.08.vbproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\obj\Debug\Chess Project v3.08.exe
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\obj\Debug\Chess Project v3.08.xml
+C:\Users\peter\source\repos\School\000 ACTUAL PROJECT\Chess Project v3.08\Chess Project v3.08\obj\Debug\Chess Project v3.08.pdb

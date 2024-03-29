@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Chess Project v3.08
+</name>
+</assembly>
+<members>
+<member name="T:Chess_Project_v3._08.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.BlackBishop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.BlackKing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.BlackKnight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.BlackPawn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.BlackQueen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.BlackRook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.Piece_Image_Link">
+<summary>
+  Looks up a localized string similar to https://flyclipart.com/chess-pieces-sprite-chess-pieces-png-619432.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.WhiteBishop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.WhiteKing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.WhiteKnight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.WhitePawn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.WhiteQueen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Chess_Project_v3._08.My.Resources.Resources.WhiteRook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Chess_Project_v3._08.MoveProcessing.GenerateKnightMove(Chess_Project_v3._08.LogicSquare[0:,0:],System.Char,Chess_Project_v3._08.LogicSquare,System.Int32,System.Int32)">
+ <summary>
+ Generates a single pseudolegal knight move
+ </summary>
+ <param name="board">The boardstate that the knight move will be searched for on</param>
+ <param name="type">The type of piece (case determines if it is black or white)</param>
+ <param name="startSquare">The square that the knight being checked currently occupies</param>
+ <param name="horizontal">How many squares to the left or right the knight is trying to move</param>
+ <param name="vertical">How many squares up or down that the knight is trying to move</param>
+ <returns>A list of pseudolegal knight moves (will only ever contain 0 or 1 moves)</returns>
+</member>
+<member name="M:Chess_Project_v3._08.MoveProcessing.GeneratePawnMoves(Chess_Project_v3._08.LogicSquare[0:,0:],System.Char,Chess_Project_v3._08.LogicSquare)">
+ <summary>
+ [UNFINISHED] Generates pseudolegal moves for a pawn
+ </summary>
+ <param name="board">The boardstate that pawn moves will be searched for on</param>
+ <param name="type">The type of piece (case determines if it is white or black)</param>
+ <param name="startSquare">The square that the pawn being checked is currently occupying</param>
+ <returns>List of pseudolegal pawn moves</returns>
+</member>
+<member name="M:Chess_Project_v3._08.MoveProcessing.IsPlayerOneColour(System.Char)">
+ <summary>
+ Checks if a piece belongs to Player1 (The human player).
+ </summary>
+ <param name="type">Type of piece (uppercase = White | lowercase = Black)</param>
+ <returns>True if piece belongs to PLayer1. False if piece does not belong to Player1.</returns>
+</member>
+<member name="M:Chess_Project_v3._08.MoveProcessing.MakeMove(Chess_Project_v3._08.LogicSquare[0:,0:],Chess_Project_v3._08.Move)">
+ <summary>
+ [UNFINISHED] Simulates making a move on an abstract board
+ </summary>
+ <param name="board">Board that the move is being made on</param>
+ <param name="move">The move to be made</param>
+</member>
+<member name="M:Chess_Project_v3._08.MoveProcessing.UnmakeMove(Chess_Project_v3._08.LogicSquare[0:,0:],Chess_Project_v3._08.Move)">
+ <summary>
+ Simulates unmaking a move on an abstract board
+ </summary>
+ <param name="board">Board that the move is being unmade on</param>
+ <param name="move">The move to be made</param>
+</member>
+</members>
+</doc>
